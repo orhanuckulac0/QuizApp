@@ -62,8 +62,8 @@ class QuizQuestionsActivity : AppCompatActivity(), View.OnClickListener {
 
         setQuestion()
         defaultOptionsView()
-
     }
+
     private fun setQuestion(){
         defaultOptionsView()
         setClickable(true)
@@ -128,7 +128,6 @@ class QuizQuestionsActivity : AppCompatActivity(), View.OnClickListener {
             R.drawable.selected_option_border_bg
         )
     }
-
 
     // set selected option numbers onclick to answer buttons
     override fun onClick(view: View?) {
