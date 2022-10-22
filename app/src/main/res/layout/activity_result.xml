@@ -9,23 +9,23 @@
     android:padding="20dp"
     tools:context=".ResultActivity"
     >
+
     <TextView
         android:id="@+id/tvResult"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
         android:text="Result"
-        android:textStyle="bold"
         android:textColor="@color/white"
         android:textSize="25sp"
-        />
+        android:textStyle="bold" />
 
     <ImageView
         android:id="@+id/ivTrophy"
         android:layout_width="300dp"
-        android:layout_height="300dp"
+        android:layout_height="264dp"
         android:background="@drawable/ic_trophy"
         android:contentDescription="Trophy" />
+
     <TextView
         android:id="@+id/tvCongratulations"
         android:layout_width="wrap_content"

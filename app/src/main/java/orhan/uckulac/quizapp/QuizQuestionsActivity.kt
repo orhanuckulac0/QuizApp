@@ -72,7 +72,6 @@ class QuizQuestionsActivity : AppCompatActivity(), View.OnClickListener {
 
         val question : Question = mQuestionsList!![mCurrentPosition - 1]
 
-
         ivImage?.setImageResource(question.image)
         progressBar?.progress = mCurrentPosition
         tvProgress?.text = "$mCurrentPosition / ${progressBar?.max}"
